@@ -1,6 +1,10 @@
 # Web App Assignment IIITD
 
-This project was created with the react framework. [Create React App](https://github.com/facebook/create-react-app). It uses firebase for authentication and for deployment.
+This project was created with the react framework. It uses firebase for authentication and for deployment. Since the UI provided was only for bigger screens, the website is only for desktop view.
+
+## Hosting
+
+This site is hosted at [www.iiitdwebdev.web.app](https://iiitdwebdev.web.app/)
 
 
 ## To reproduce

@@ -6,7 +6,9 @@ import Bubble from "../../Components/Bubble/Bubble";
 const useStyles = makeStyles({
   img: {
     borderRadius: " 2% 10% 2% 10%",
-    margin: "3% 15%"
+    margin: "3% 15%",
+    height: "75%",
+    // width: "40vw"
   },
 });
 export default function Content(props) {
@@ -15,7 +17,7 @@ export default function Content(props) {
     props.history.push("/signin");
   }
   const toYoutube=()=>{
-    window.location.replace("https://www.youtube.com/user/PewDiePie")
+    window.location.assign("https://www.youtube.com/user/PewDiePie")
   }
   return (
     <div>

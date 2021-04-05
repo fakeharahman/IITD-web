@@ -4,31 +4,13 @@ import BubbleImg from "../../assets/bubble1.png";
 import PlayCircleFilledWhiteIcon from "@material-ui/icons/PlayCircleFilledWhite";
 
 const useStyles = makeStyles({
-  bubble: {
-    backgroundColor: "pink",
-    height: "60%",
-    width: "40%",
-    position: "absolute",
-    top: 0,
-    borderRadius: "50% 50% 70% 10%",
-    "&::before": {
-      // bottom: 0,
-      // left: 0,
-      // boxShadow: "-50px 50px 0 0 red",
-      // content: '""',
-      // display: "block",
-      // width: "200%",
-      // height: "200%",
-      // position: "absolute",
-      // borderRadius: "50%"
-    },
-  },
   bubbleImg: {
     opacity: "70%",
     position: "absolute",
     top: "10%",
     width: "40%",
     height: "75%",
+    maxHeight: "550px",
     left: "calc( 15% + 450px )",
   },
   bubbleContent: {
@@ -92,9 +74,6 @@ export default function Bubble(props) {
           </Box>
         </div>
       </div>
-      {/* <div className={classes.bubble}> */}
-
-      {/* </div> */}
     </div>
   );
 }
