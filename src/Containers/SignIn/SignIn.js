@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import LoggedInModal from "../../Components/LoggedInModal/LoggedInModal";
 import SignInForm from "../../Components/SiginInForm/SignInForm";
 
+// Container to hold the signin page
+
 export default function SignIn() {
   const [tabValue, setTabValue] = useState("signup");
   const [userData, setUserData] = useState({ email: "", password: "" });

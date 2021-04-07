@@ -4,12 +4,13 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import { Box, Button, Divider, makeStyles, TextField } from "@material-ui/core";
 
+// The form on the signin page
+
 const useStyles = makeStyles({
   tabs: {
     width: "40%",
     backgroundColor: "#Eedce6",
     color: "#fff",
-    // height: "50%"
   },
   signin: {
     padding: "5% 3%",
@@ -43,7 +44,6 @@ export default function SignInForm(props) {
           textColor="primary"
           variant="fullWidth"
           onChange={props.onTabChange}
-          //   aria-label="disabled tabs example"
         >
           <Tab label="Sign up" value="signup" />
           <Tab label="Login" value="login" />

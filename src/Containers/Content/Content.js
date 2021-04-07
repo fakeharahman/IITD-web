@@ -3,12 +3,13 @@ import React from "react";
 import LandPic from "../../assets/landPic1.jpg";
 import Bubble from "../../Components/Bubble/Bubble";
 
+//Container to hold the contents of the landing page
+
 const useStyles = makeStyles({
   img: {
     borderRadius: " 2% 10% 2% 10%",
     margin: "3% 15%",
     height: "75%",
-    // width: "40vw"
   },
 });
 export default function Content(props) {

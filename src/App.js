@@ -1,4 +1,3 @@
-// import './App.css';
 import {
   createMuiTheme,
   makeStyles,
@@ -52,7 +51,6 @@ function App() {
               <Route path="/signin" component={SignIn} />
               <Route path="/" component={Content} />
             </Switch>
-            {/* <Content /> */}
           </Box>
         </Box>
       </ThemeProvider>

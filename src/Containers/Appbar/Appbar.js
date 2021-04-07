@@ -12,6 +12,8 @@ import SearchIcon from "@material-ui/icons/Search";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 import Logo from "../../assets/logo.jpg";
 
+// The navigation bar at the top
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -35,7 +37,6 @@ const useStyles = makeStyles((theme) => ({
   logo: {
     fontSize: 20,
     display: "flex",
-    // width: "15%",
     justifyContent: "space-between",
     alignItems: "center",
     "& img": {
@@ -52,7 +53,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "transparent",
     borderBottom: "0",
     boxShadow: "0 0 0 0",
-    // height: 108
   },
 }));
 

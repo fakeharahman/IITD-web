@@ -3,6 +3,8 @@ import React from "react";
 import BubbleImg from "../../assets/bubble1.png";
 import PlayCircleFilledWhiteIcon from "@material-ui/icons/PlayCircleFilledWhite";
 
+//the bubble on the main screen
+
 const useStyles = makeStyles({
   bubbleImg: {
     opacity: "70%",
